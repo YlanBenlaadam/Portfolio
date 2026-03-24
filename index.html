@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ylan Benlaadam | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#accueil" class="nav-logo">Y<span>B</span></a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#a-propos">A propos</a></li>
+                <li><a href="#competences">Competences</a></li>
+                <li><a href="#formation">Formation</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <p class="hero-greeting">Bonjour, je suis</p>
+            <h1 class="hero-name">Ylan Benlaadam</h1>
+            <p class="hero-title">Etudiant en BUT Informatique</p>
+            <p class="hero-description">
+                Rigoureux, curieux et motive, je recherche un stage dans le domaine
+                de l'informatique du 20 avril au 10 juillet 2026.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                <a href="#contact" class="btn btn-secondary">Me contacter</a>
+            </div>
+            <div class="hero-socials">
+                <a href="mailto:ylan.benlaadam@universite-paris-saclay.fr" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                <a href="tel:0624779770" aria-label="Telephone"><i class="fas fa-phone"></i></a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- A propos -->
+    <section class="section" id="a-propos">
+        <div class="container">
+            <h2 class="section-title">A propos de moi</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Actuellement etudiant en deuxieme annee de <strong>BUT Informatique</strong>
+                        a l'IUT d'Orsay (Universite Paris-Saclay), j'ai acquis des competences solides
+                        en developpement web, en programmation orientee objet et en gestion de bases de donnees.
+                    </p>
+                    <p>
+                        Mon sens de l'organisation et mon aisance a l'oral me permettent de m'adapter
+                        rapidement a de nouveaux environnements et de repondre efficacement aux besoins
+                        des utilisateurs. Je sais faire preuve d'autonomie tout en appreciant le travail en equipe.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Le Blanc-Mesnil, France</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>BUT Informatique - 2eme annee</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-search"></i>
+                            <span>Recherche de stage : 20 avril - 10 juillet 2026</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-languages">
+                    <h3>Langues</h3>
+                    <div class="language-item">
+                        <span class="language-name">Francais</span>
+                        <div class="language-bar"><div class="language-fill" data-level="100"></div></div>
+                    </div>
+                    <div class="language-item">
+                        <span class="language-name">Arabe</span>
+                        <div class="language-bar"><div class="language-fill" data-level="90"></div></div>
+                    </div>
+                    <div class="language-item">
+                        <span class="language-name">Anglais</span>
+                        <div class="language-bar"><div class="language-fill" data-level="65"></div></div>
+                    </div>
+                    <div class="language-item">
+                        <span class="language-name">Espagnol</span>
+                        <div class="language-bar"><div class="language-fill" data-level="50"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competences -->
+    <section class="section section-alt" id="competences">
+        <div class="container">
+            <h2 class="section-title">Competences</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Developpement Web</h3>
+                    <div class="skill-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">PHP</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Programmation</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">C++</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">Python</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>Bases de donnees</h3>
+                    <div class="skill-tags">
+                        <span class="tag">SQL</span>
+                        <span class="tag">SQL Developer</span>
+                        <span class="tag">CSV</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Outils</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">Linux</span>
+                        <span class="tag">Word / Excel</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formation -->
+    <section class="section" id="formation">
+        <div class="container">
+            <h2 class="section-title">Formation</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025 - 2026</span>
+                        <h3>BUT Informatique - 2eme annee <span class="badge">En cours</span></h3>
+                        <h4>IUT d'Orsay - Universite Paris-Saclay</h4>
+                        <p>
+                            Programmation orientee objet, administration reseau, gestion de bases
+                            de donnees (SQL), developpement web, mathematiques.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023 - 2024</span>
+                        <h3>Baccalaureat</h3>
+                        <h4>Mention Assez Bien</h4>
+                        <p>
+                            Specialites : Mathematiques, Physique-Chimie, Sciences de l'ingenieur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets -->
+    <section class="section section-alt" id="projets">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon"><i class="fas fa-globe"></i></div>
+                        <div class="project-links">
+                            <span class="project-tech-badge">Web</span>
+                        </div>
+                    </div>
+                    <h3>Site Web Dynamique</h3>
+                    <p>
+                        Developpement d'un site web responsive avec JavaScript et CSS.
+                        Gestion de nombreuses pages, navigation efficace et formulaire de connexion.
+                    </p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon"><i class="fas fa-database"></i></div>
+                        <div class="project-links">
+                            <span class="project-tech-badge">BDD</span>
+                        </div>
+                    </div>
+                    <h3>Base de Donnees Jeux Video</h3>
+                    <p>
+                        Conception et gestion d'une base de donnees avec recherches multicriteres,
+                        procedures stockees et importation de donnees via fichier CSV.
+                    </p>
+                    <div class="project-tags">
+                        <span>SQL</span>
+                        <span>SQL Developer</span>
+                        <span>CSV</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon"><i class="fas fa-gamepad"></i></div>
+                        <div class="project-links">
+                            <span class="project-tech-badge">Jeu</span>
+                        </div>
+                    </div>
+                    <h3>Jeu Video en C++</h3>
+                    <p>
+                        Jeu sur plateau avec deplacement de personnage, generation aleatoire d'objets
+                        et gestion des ennemis. Classes propres au jeu pour gerer personnages et decoration.
+                    </p>
+                    <div class="project-tags">
+                        <span>C++</span>
+                        <span>POO</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon"><i class="fas fa-network-wired"></i></div>
+                        <div class="project-links">
+                            <span class="project-tech-badge">Reseau</span>
+                        </div>
+                    </div>
+                    <h3>Projet Reseaux - Marionnet</h3>
+                    <p>
+                        Configuration de machines virtuelles et routeurs, administration via SSH
+                        et mise en place de routes pour la communication entre differents reseaux.
+                    </p>
+                    <div class="project-tags">
+                        <span>Linux</span>
+                        <span>SSH</span>
+                        <span>Marionnet</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p class="section-subtitle">
+                Je me tiens a votre disposition pour toute information complementaire
+                et serais ravi de pouvoir vous rencontrer lors d'un entretien.
+            </p>
+            <div class="contact-grid">
+                <a href="mailto:ylan.benlaadam@universite-paris-saclay.fr" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>ylan.benlaadam@universite-paris-saclay.fr</p>
+                </a>
+                <a href="tel:0624779770" class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Telephone</h3>
+                    <p>06 24 77 97 70</p>
+                </a>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Adresse</h3>
+                    <p>51 rue de Rouen, Le Blanc-Mesnil</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Ylan Benlaadam. Tous droits reserves.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
